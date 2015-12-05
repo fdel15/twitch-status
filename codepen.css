@@ -1,0 +1,103 @@
+.container {
+  border: solid;
+  height: 100%;
+  width: 250px;
+  margin: 30px auto;
+  padding: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/*
+****************
+buttons
+****************
+*/
+
+.btn-group {
+  width: 102%;
+}
+
+.btn.btn-default {
+  width: 33%;
+  text-align: center;
+  border-radius: 0;
+}
+
+.btn:focus {
+  outline: none !important;
+}
+
+
+/*
+****************
+search box
+****************
+*/
+
+.input-group {
+  border-bottom: solid 1px;
+}
+
+#search {
+  background: url(http://www.clearfocus.com/images/magnifying_glass_icon.png) no-repeat left;
+  text-indent: 20px;
+  width: 140px;
+  margin: 10px;
+  border-radius: 30px;
+}
+
+#find {
+  width: 70px;
+  font-size: 15px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+/*
+****************
+user list
+****************
+*/
+
+.user {
+  margin: 20px 10px;
+}
+
+.icon {
+  width: 50px;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+.name {
+  width: 120px;
+  color: blue;
+  margin-left: 5px;
+  display: inline-block;
+}
+
+.status {
+  text-align: right;
+  width: 40px;
+  display: inline-block;
+}
+
+.glyphicon-off {
+  color: red
+}
+
+.glyphicon-ok {
+  color: green;
+}
+
+.description {
+  font-size: 10px;
+  text-align: left;
+  margin: -14px 0 0 50px;
+  color: grey;
+  width: 140px;
+}
+

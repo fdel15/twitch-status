@@ -1,0 +1,32 @@
+<html>
+<head>
+  <title>Twitch Status</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="codepen.css">
+  <script src="codepen.js"></script>
+</head>
+<body>
+  <h1 class="text-center">TwitchStatus</h1>
+<h3 class="text-center">FreeCodeCamp</h3>
+<div class="container">
+  <div class="btn-group" role="group" aria-label="group">
+    <button type="button" class="btn btn-default" id="all">All</button>
+    <button type="button" class="btn btn-default" id="online">Online</button>
+    <button type="button" class="btn btn-default" id="offline">Offline</button>
+  </div><!--btn-group-->
+
+  <div class="input-group">
+    <input type="text" id="search" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+    <span class="input-group-btn">
+        <button class="btn btn-primary" id="find" type="button">Find</button>
+      </span>
+  </div><!--input-group-->
+
+  <div class="list">
+  </div><!--list-->
+
+</div><!--container-->
+</body>
+</html>
